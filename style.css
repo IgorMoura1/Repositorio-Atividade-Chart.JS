@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(assets/Background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(37, 28, 53, 0.2);
+    backdrop-filter: blur(1px);
+}
+
+canvas {
+    text-decoration: underline;
+}
